@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas no HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Tabelas no HTML</h1>
+        <section id="students">
+                <h2>Tabela de Alunos</h2>
+
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>E-mail</th>
+                            <th>Matrícula</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Carol Dias</td>
+                            <td>carol.dias@email.com</td>
+                            <td>1</td>
+                        </tr>
+
+                        <tr>
+                            <td>Peter Parker</td>
+                            <td>parker.peter@email.com</td>
+                            <td>2</td>
+                        </tr>
+
+                        <tr>
+                            <td>Nami Maria</td>
+                            <td>maria.nami@email.com</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+
+        <section id="finance">
+            <h2>Tabela de Controle Financeiro</h2>
+            <table border="1">
+                <thead>
+                    <th>Data</th>
+                    <th>Tipo</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">16/04/2022</td>
+                        <td>Despesa</td>
+                        <td>Almoço</td>
+                        <td>R$ 35,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>R$ 1.800,00</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="4" align="center">Mesclagem</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
